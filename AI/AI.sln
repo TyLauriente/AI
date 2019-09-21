@@ -1,0 +1,167 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "X", "X\X.vcxproj", "{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{CC575D51-8D99-401F-BE8F-19B413834EC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTK_Desktop_2017", "X\External\DirectXTK\DirectXTK_Desktop_2017.vcxproj", "{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImGui", "X\External\ImGui\ImGui.vcxproj", "{BFF9C813-01AF-43B3-A23E-2C62F332B994}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTKAudio_Desktop_2017_Win8", "X\External\DirectXTK\Audio\DirectXTKAudio_Desktop_2017_Win8.vcxproj", "{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathFinding", "PathFinding\PathFinding.vcxproj", "{76800478-1B42-4814-9181-E601F3ECF04D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AI", "AI\AI.vcxproj", "{9E9EE5BE-DDB0-42BD-ABE5-FA2CC0E323F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FSM", "FSM\FSM.vcxproj", "{2F3CC15F-D722-4F24-99DB-FD2EAEA2BBC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Steering", "Steering\Steering.vcxproj", "{FCC07373-3060-4889-84CD-8026066F3228}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathPlanning", "PathPlanning\PathPlanning.vcxproj", "{54E7705F-70A8-4BB5-B58B-C2D10E4D4FA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Final", "Final\Final.vcxproj", "{952DA48D-3A3D-4564-97D9-0D45683CD71A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Debug|x64.ActiveCfg = Debug|x64
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Debug|x64.Build.0 = Debug|x64
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Debug|x86.Build.0 = Debug|Win32
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Release|x64.ActiveCfg = Release|x64
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Release|x64.Build.0 = Release|x64
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Release|x86.ActiveCfg = Release|Win32
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Release|x86.Build.0 = Release|Win32
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Debug|x64.ActiveCfg = Debug|x64
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Debug|x64.Build.0 = Debug|x64
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Debug|x86.Build.0 = Debug|Win32
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Release|x64.ActiveCfg = Release|x64
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Release|x64.Build.0 = Release|x64
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Release|x86.ActiveCfg = Release|Win32
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Release|x86.Build.0 = Release|Win32
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Debug|x64.ActiveCfg = Debug|x64
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Debug|x64.Build.0 = Debug|x64
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Debug|x86.Build.0 = Debug|Win32
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Release|x64.ActiveCfg = Release|x64
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Release|x64.Build.0 = Release|x64
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Release|x86.ActiveCfg = Release|Win32
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Release|x86.Build.0 = Release|Win32
+		{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF}.Debug|x64.ActiveCfg = Debug|x64
+		{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF}.Debug|x64.Build.0 = Debug|x64
+		{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF}.Debug|x86.Build.0 = Debug|Win32
+		{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF}.Release|x64.ActiveCfg = Release|x64
+		{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF}.Release|x64.Build.0 = Release|x64
+		{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF}.Release|x86.ActiveCfg = Release|Win32
+		{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF}.Release|x86.Build.0 = Release|Win32
+		{76800478-1B42-4814-9181-E601F3ECF04D}.Debug|x64.ActiveCfg = Debug|x64
+		{76800478-1B42-4814-9181-E601F3ECF04D}.Debug|x64.Build.0 = Debug|x64
+		{76800478-1B42-4814-9181-E601F3ECF04D}.Debug|x86.ActiveCfg = Debug|Win32
+		{76800478-1B42-4814-9181-E601F3ECF04D}.Debug|x86.Build.0 = Debug|Win32
+		{76800478-1B42-4814-9181-E601F3ECF04D}.Release|x64.ActiveCfg = Release|x64
+		{76800478-1B42-4814-9181-E601F3ECF04D}.Release|x64.Build.0 = Release|x64
+		{76800478-1B42-4814-9181-E601F3ECF04D}.Release|x86.ActiveCfg = Release|Win32
+		{76800478-1B42-4814-9181-E601F3ECF04D}.Release|x86.Build.0 = Release|Win32
+		{9E9EE5BE-DDB0-42BD-ABE5-FA2CC0E323F1}.Debug|x64.ActiveCfg = Debug|x64
+		{9E9EE5BE-DDB0-42BD-ABE5-FA2CC0E323F1}.Debug|x64.Build.0 = Debug|x64
+		{9E9EE5BE-DDB0-42BD-ABE5-FA2CC0E323F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{9E9EE5BE-DDB0-42BD-ABE5-FA2CC0E323F1}.Debug|x86.Build.0 = Debug|Win32
+		{9E9EE5BE-DDB0-42BD-ABE5-FA2CC0E323F1}.Release|x64.ActiveCfg = Release|x64
+		{9E9EE5BE-DDB0-42BD-ABE5-FA2CC0E323F1}.Release|x64.Build.0 = Release|x64
+		{9E9EE5BE-DDB0-42BD-ABE5-FA2CC0E323F1}.Release|x86.ActiveCfg = Release|Win32
+		{9E9EE5BE-DDB0-42BD-ABE5-FA2CC0E323F1}.Release|x86.Build.0 = Release|Win32
+		{2F3CC15F-D722-4F24-99DB-FD2EAEA2BBC2}.Debug|x64.ActiveCfg = Debug|x64
+		{2F3CC15F-D722-4F24-99DB-FD2EAEA2BBC2}.Debug|x64.Build.0 = Debug|x64
+		{2F3CC15F-D722-4F24-99DB-FD2EAEA2BBC2}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F3CC15F-D722-4F24-99DB-FD2EAEA2BBC2}.Debug|x86.Build.0 = Debug|Win32
+		{2F3CC15F-D722-4F24-99DB-FD2EAEA2BBC2}.Release|x64.ActiveCfg = Release|x64
+		{2F3CC15F-D722-4F24-99DB-FD2EAEA2BBC2}.Release|x64.Build.0 = Release|x64
+		{2F3CC15F-D722-4F24-99DB-FD2EAEA2BBC2}.Release|x86.ActiveCfg = Release|Win32
+		{2F3CC15F-D722-4F24-99DB-FD2EAEA2BBC2}.Release|x86.Build.0 = Release|Win32
+		{FCC07373-3060-4889-84CD-8026066F3228}.Debug|x64.ActiveCfg = Debug|x64
+		{FCC07373-3060-4889-84CD-8026066F3228}.Debug|x64.Build.0 = Debug|x64
+		{FCC07373-3060-4889-84CD-8026066F3228}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCC07373-3060-4889-84CD-8026066F3228}.Debug|x86.Build.0 = Debug|Win32
+		{FCC07373-3060-4889-84CD-8026066F3228}.Release|x64.ActiveCfg = Release|x64
+		{FCC07373-3060-4889-84CD-8026066F3228}.Release|x64.Build.0 = Release|x64
+		{FCC07373-3060-4889-84CD-8026066F3228}.Release|x86.ActiveCfg = Release|Win32
+		{FCC07373-3060-4889-84CD-8026066F3228}.Release|x86.Build.0 = Release|Win32
+		{54E7705F-70A8-4BB5-B58B-C2D10E4D4FA0}.Debug|x64.ActiveCfg = Debug|x64
+		{54E7705F-70A8-4BB5-B58B-C2D10E4D4FA0}.Debug|x64.Build.0 = Debug|x64
+		{54E7705F-70A8-4BB5-B58B-C2D10E4D4FA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{54E7705F-70A8-4BB5-B58B-C2D10E4D4FA0}.Debug|x86.Build.0 = Debug|Win32
+		{54E7705F-70A8-4BB5-B58B-C2D10E4D4FA0}.Release|x64.ActiveCfg = Release|x64
+		{54E7705F-70A8-4BB5-B58B-C2D10E4D4FA0}.Release|x64.Build.0 = Release|x64
+		{54E7705F-70A8-4BB5-B58B-C2D10E4D4FA0}.Release|x86.ActiveCfg = Release|Win32
+		{54E7705F-70A8-4BB5-B58B-C2D10E4D4FA0}.Release|x86.Build.0 = Release|Win32
+		{952DA48D-3A3D-4564-97D9-0D45683CD71A}.Debug|x64.ActiveCfg = Debug|x64
+		{952DA48D-3A3D-4564-97D9-0D45683CD71A}.Debug|x64.Build.0 = Debug|x64
+		{952DA48D-3A3D-4564-97D9-0D45683CD71A}.Debug|x86.ActiveCfg = Debug|Win32
+		{952DA48D-3A3D-4564-97D9-0D45683CD71A}.Debug|x86.Build.0 = Debug|Win32
+		{952DA48D-3A3D-4564-97D9-0D45683CD71A}.Release|x64.ActiveCfg = Release|x64
+		{952DA48D-3A3D-4564-97D9-0D45683CD71A}.Release|x64.Build.0 = Release|x64
+		{952DA48D-3A3D-4564-97D9-0D45683CD71A}.Release|x86.ActiveCfg = Release|Win32
+		{952DA48D-3A3D-4564-97D9-0D45683CD71A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4} = {CC575D51-8D99-401F-BE8F-19B413834EC2}
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994} = {CC575D51-8D99-401F-BE8F-19B413834EC2}
+		{C6B942ED-EEEC-4867-AB0E-4CEACAEEBDEF} = {CC575D51-8D99-401F-BE8F-19B413834EC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7557A89C-6C53-4764-A6FA-1E3E1B418C7D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tylauriente.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = X\\X.vcxproj
+		SccProjectName1 = X
+		SccLocalPath1 = X
+		SccProjectUniqueName2 = X\\External\\DirectXTK\\DirectXTK_Desktop_2017.vcxproj
+		SccProjectTopLevelParentUniqueName2 = AI.sln
+		SccProjectName2 = X/External/DirectXTK
+		SccLocalPath2 = X\\External\\DirectXTK
+		SccProjectUniqueName3 = X\\External\\ImGui\\ImGui.vcxproj
+		SccProjectTopLevelParentUniqueName3 = AI.sln
+		SccProjectName3 = X/External/ImGui
+		SccLocalPath3 = X\\External\\ImGui
+		SccProjectUniqueName4 = X\\External\\DirectXTK\\Audio\\DirectXTKAudio_Desktop_2017_Win8.vcxproj
+		SccProjectTopLevelParentUniqueName4 = AI.sln
+		SccProjectName4 = X/External/DirectXTK/Audio
+		SccLocalPath4 = X\\External\\DirectXTK\\Audio
+		SccProjectUniqueName5 = PathFinding\\PathFinding.vcxproj
+		SccProjectName5 = PathFinding
+		SccLocalPath5 = PathFinding
+		SccProjectUniqueName6 = AI\\AI.vcxproj
+		SccProjectName6 = AI
+		SccLocalPath6 = AI
+		SccProjectUniqueName7 = FSM\\FSM.vcxproj
+		SccProjectName7 = FSM
+		SccLocalPath7 = FSM
+		SccProjectUniqueName8 = Steering\\Steering.vcxproj
+		SccProjectName8 = Steering
+		SccLocalPath8 = Steering
+		SccProjectUniqueName9 = PathPlanning\\PathPlanning.vcxproj
+		SccProjectName9 = PathPlanning
+		SccLocalPath9 = PathPlanning
+		SccProjectUniqueName10 = Final\\Final.vcxproj
+		SccProjectName10 = Final
+		SccLocalPath10 = Final
+	EndGlobalSection
+EndGlobal

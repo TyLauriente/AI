@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="BaseBot.cpp">
+      <Filter>Bots\BaseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="FleeBot.cpp">
+      <Filter>Bots\FleeBot</Filter>
+    </ClCompile>
+    <ClCompile Include="FleeTest.cpp">
+      <Filter>Tests\FleeTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SeekTest.cpp">
+      <Filter>Tests\SeekTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SeekBot.cpp">
+      <Filter>Bots\SeekBot</Filter>
+    </ClCompile>
+    <ClCompile Include="ArriveBot.cpp">
+      <Filter>Bots\ArriveBot</Filter>
+    </ClCompile>
+    <ClCompile Include="ArriveTest.cpp">
+      <Filter>Tests\ArriveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="AvoidBot.cpp">
+      <Filter>Bots\AvoidBot</Filter>
+    </ClCompile>
+    <ClCompile Include="AvoidTest.cpp">
+      <Filter>Tests\AvoidTest</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderBot.cpp">
+      <Filter>Bots\WanderBot</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderTest.cpp">
+      <Filter>Tests\WanderTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FlockBot.cpp">
+      <Filter>Bots\FlockBot</Filter>
+    </ClCompile>
+    <ClCompile Include="FlockTest.cpp">
+      <Filter>Tests\FlockTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseBot.h">
+      <Filter>Bots\BaseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="FleeBot.h">
+      <Filter>Bots\FleeBot</Filter>
+    </ClInclude>
+    <ClInclude Include="SeekBot.h">
+      <Filter>Bots\SeekBot</Filter>
+    </ClInclude>
+    <ClInclude Include="FleeTest.h">
+      <Filter>Tests\FleeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SeekTest.h">
+      <Filter>Tests\SeekTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ArriveBot.h">
+      <Filter>Bots\ArriveBot</Filter>
+    </ClInclude>
+    <ClInclude Include="ArriveTest.h">
+      <Filter>Tests\ArriveTest</Filter>
+    </ClInclude>
+    <ClInclude Include="AvoidBot.h">
+      <Filter>Bots\AvoidBot</Filter>
+    </ClInclude>
+    <ClInclude Include="AvoidTest.h">
+      <Filter>Tests\AvoidTest</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderBot.h">
+      <Filter>Bots\WanderBot</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderTest.h">
+      <Filter>Tests\WanderTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FlockBot.h">
+      <Filter>Bots\FlockBot</Filter>
+    </ClInclude>
+    <ClInclude Include="FlockTest.h">
+      <Filter>Tests\FlockTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Bots">
+      <UniqueIdentifier>{09b90dfd-e84a-492d-9340-a84ed5c82748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\BaseBot">
+      <UniqueIdentifier>{0047aca2-7a15-4b95-99cb-d6f1f80dea15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\FleeBot">
+      <UniqueIdentifier>{c4bd55b1-27de-44a1-a21b-c145cc9eb7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\SeekBot">
+      <UniqueIdentifier>{ec55e4c5-f99e-4a6c-8025-2c0bea84176c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{6464ef8c-b1a5-4b3f-8366-4700b672d458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\FleeTest">
+      <UniqueIdentifier>{9ad38902-5ffd-452f-98e6-4ecd6d8e3f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\SeekTest">
+      <UniqueIdentifier>{dcc7c17d-b7aa-4115-b1f0-a6006125023c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\ArriveBot">
+      <UniqueIdentifier>{accb8cdc-ccdf-4dd6-b54a-573717cf1ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ArriveTest">
+      <UniqueIdentifier>{60c08146-5266-4b65-b983-926530ea5063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\AvoidBot">
+      <UniqueIdentifier>{8c410115-21eb-44fb-b450-8b04470ba2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AvoidTest">
+      <UniqueIdentifier>{5b9a9742-6692-4c0a-9953-f430cc24a685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\WanderBot">
+      <UniqueIdentifier>{1b6c4201-cff0-4ccf-8a02-6676b6b0d93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\WanderTest">
+      <UniqueIdentifier>{e94d0ad0-619e-45df-987f-a1c8fb680995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\FlockBot">
+      <UniqueIdentifier>{15de3ad1-57d6-4718-8e42-2565a30f7ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\FlockTest">
+      <UniqueIdentifier>{eb4f2d02-e0e5-4f56-ba28-6549c5836821}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

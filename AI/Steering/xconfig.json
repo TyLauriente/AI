@@ -1,0 +1,7 @@
+{
+  "AppName": "AI - FSM",
+  "WinWidth": 1600,
+  "WinHeight": 900,
+  "FullScreen": false,
+  "TexturePath":  "../Assets/Images"
+}
